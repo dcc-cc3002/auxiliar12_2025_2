@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auxiliar11-2024-2-main/BlockCraft.iml" filepath="$PROJECT_DIR$/.idea/modules/auxiliar11-2024-2-main/BlockCraft.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auxiliar11-2024-2-main/BlockCraft.BlockCraft-build.iml" filepath="$PROJECT_DIR$/.idea/modules/auxiliar11-2024-2-main/BlockCraft.BlockCraft-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auxiliar11-2024-2-main/BlockCraft.main.iml" filepath="$PROJECT_DIR$/.idea/modules/auxiliar11-2024-2-main/BlockCraft.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/auxiliar11-2024-2-main/BlockCraft.test.iml" filepath="$PROJECT_DIR$/.idea/modules/auxiliar11-2024-2-main/BlockCraft.test.iml" />
+    </modules>
+  </component>
+</project>

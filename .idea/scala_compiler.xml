@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="BlockCraft,BlockCraft.main,BlockCraft.test,auxiliar11-2024-2-main_1956,auxiliar11-2024-2-main_1956.main,auxiliar11-2024-2-main_1956.test" />
+  </component>
+</project>
