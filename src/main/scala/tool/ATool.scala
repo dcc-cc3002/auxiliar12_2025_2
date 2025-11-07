@@ -1,6 +1,6 @@
 package tool
 
-import block.{Block, Stone, Wood}
+import block.{Block, Dirt, Stone, Wood}
 import world.Chunk
 
 import scala.collection.mutable.ArrayBuffer
@@ -16,5 +16,5 @@ abstract class ATool(override val name: String) extends Tool {
 
   override def visitStone(b: Stone, c: Chunk): Unit = {}
   override def visitWood(b: Wood, c: Chunk): Unit = {}
-
+  override def visitDirt(b: Dirt, c: Chunk): Unit = {}
 }

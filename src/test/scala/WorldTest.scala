@@ -1,4 +1,6 @@
+import block.Dirt
 import munit.FunSuite
+import tool.Shovel
 
 class WorldTest extends FunSuite {
   var player: world.Player = _
@@ -9,6 +11,7 @@ class WorldTest extends FunSuite {
     chunk = new world.Chunk()
     chunk.addBlock(new block.Stone())
     chunk.addBlock(new block.Wood())
+    chunk.addBlock(new block.Dirt())
   }
 
   test("A block can be added to a chunk") {
@@ -39,4 +42,9 @@ class WorldTest extends FunSuite {
     assertEquals(axe.obtainBlocks().length, 1)
   }
 
+  test("Player can mine with a Shovel") {
+    val shovel = new Shovel()
+    player.mine(shovel, chunk)
+    assertEquals(shovel.obtainBlocks().length, 1)
+  }
 }
